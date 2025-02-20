@@ -26,7 +26,7 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvid para gerenciar uma acadêmia de jiu-jitsu utilizando Python e Django com Flet sendo multiplataforma. O objetivo é permitir que os professores registrem os alunos de forma organizada, podendo criar, editar, listar e excluir, aulas pra subir de faixa e o progresso do aluno. O projeto utiliza Django-Ninja uma biblioteca api para o back-end como framework principal para o desenvolvimento da aplicação web usado django e foi pensado para fornecer uma interface simples e intuitiva para os usuários com flet multiplataforma e uma biblioteca de requests para ligar o front-end com o back-end.
+Psicólogo Manager é um sistema desenvolvido em Python para auxiliar psicólogos na gestão de seus pacientes. O sistema permite o cadastro e consulta de pacientes, o registro detalhado das consultas realizadas e a anexação de vídeos para monitoramento da evolução do paciente. Além disso, gera um link personalizado para que o paciente possa acessar seu progresso, incluindo vídeos e gráficos que mostram a quantidade de sessões realizadas. Com uma interface intuitiva e recursos avançados, o Psicólogo Manager facilita o acompanhamento terapêutico, tornando a gestão mais eficiente e organizada.
 
 <p align="center">
   <img src="pacientes.png" alt="Imagem 1">
@@ -102,6 +102,7 @@ Após a criação do venv vamos ativa-lo:
 
   pip install django
   pip install pillow
+  pip install matplotlib
 
   ```
 
@@ -116,7 +117,7 @@ Após a criação do venv vamos ativa-lo:
   python manage.py createsuperuser
 
   ```
-5. **Execute o Back-end**:
+5. **Execute no terminal**:
 
   Inicie o servidor de desenvolvimento para rodar a aplicação localmente:
   
